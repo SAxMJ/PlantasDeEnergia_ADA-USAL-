@@ -1,0 +1,195 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnvnvvnnnnnnnvnnvnvvvvnvnnvnvnnnnnvnnvnvnnnnvnvnnnnnnvnvvnnnnvnnnv4nv3nv1+nnnv1+nn
+
+U main%b		main.adb		3c9e1a66 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W plantamonitor%s	plantamonitor.adb	plantamonitor.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-caldel.ads		20110428140858 9f20b83d
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-numeri.ads		20110428140902 bb51c45a
+D a-nudira.ads		20110428140902 2fef2912
+D a-nudira.adb		20110428140902 e57ce22b
+D a-nuflra.ads		20110428140902 49c50e0b
+D a-reatim.ads		20110428140902 63f07669
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20210111100710 411a290c
+D plantamonitor.ads	20210111095042 6a44b167
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-imguns.ads		20110428140906 9ff43cf7
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-rannum.ads		20110428140908 5eb33f0a
+D s-rannum.adb		20110428140908 67756f39
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tpoben.ads		20110428140908 e8374469
+D s-tasren.ads		20110428140908 86fa7427
+D s-tassta.ads		20110428140908 e88ef99e
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-valuns.ads		20110428140908 10a8ed3b
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 21|3r6 4r6 4r24 5r6 12r29
+X 2 a-calend.ads
+36K13*Calendar 358e17 21|4w10 4r28
+38I9*Time 21|93r11 155r20 190r18 315r14
+52V13*Clock{38I9} 21|101s23 111s35 121s35 138s26 162s21 173s23 200s21 293s24
+. 324s29 352s31
+94V13*"+"{38I9} 21|162s26 173s28 200s26 293s29
+95V13*"+"{38I9} 21|101s22 111s34 121s34 138s25 324s28 352s30
+X 8 a-numeri.ads
+16K13*Numerics 32e17 21|3r10 5r10 12r33
+X 9 a-nudira.ads
+44k22*Discrete_Random 73e33 21|3w19 12r42
+48R9 Generator 21|13r21[12]
+50V13 Random{integer} 21|168s27[12]
+53U14 Reset<36|91p14> 21|159s17[12] 167s19[12]
+X 10 a-nudira.adb
+51V16 Random[36|74]{integer} 37|394b13[21|12]
+X 11 a-nuflra.ads
+41K22*Float_Random 72e30 21|5w19
+X 15 a-textio.ads
+242U14*Put 21|222s21 225s21 228s21
+263U14*Put_Line 21|100s15 135s21 171s18 223s21 226s21 229s21 320s15 372s12
+X 17 interfac.ads
+57M9*Unsigned_32
+60M9*Unsigned_64
+X 21 main.adb
+7U11*Main 7b11 374l5 374t9
+11I12 aleatorioReactor{integer} 12r58 153r14
+12K12 Aleatorio[9|44] 13r11 159r7 167r9 168r17
+13r4 seed{9|48R9[12]} 159r23 167r25 168r34
+16i4 consumoEnergiaCiudad{integer} 23r16 28m9 28r31
+21U15 getConsumoCiudad 21b15 21<32 24l13 24t29 208s10
+21i32 cons{integer} 23m10
+26U14 modificaConsumoCiudad 26b14 26>36 29l13 29t34 170s10
+26i36 cons{integer} 28r52
+39T14 TareaSensor 39d27 39d45 43l8 43e19 46b14 69l8 69t19 310r14
+39i27 idPlanta{integer}
+41Y13 compruebaEstadoPlanta 41<35 58b17 66l14 66t35 332s14
+41i35 produccion{integer} 65m31 65r31
+51i9 id{integer} 53m22 53r22
+58i39 produccion{integer}
+82T14 TareaActuador 82d29 82d47 89l8 89e21 91b14 141l8 141t21 311r14
+82i29 idPlanta{integer} 135r72
+85Y15 incrementaProduccion 107b20 115l17 115t37 337s20
+86Y15 disminuyeProduccion 117b20 125l17 125t36 342s20
+87Y15 mantenProduccion 127b20 132l17 132t33 347s20
+92o4 periodo{duration} 101r15 138r18
+93i4 tiempo{2|38I9} 101m7 103r19 111m19 112r31 121m19 122r31 138m10 139r22
+95o4 retardo{duration} 111r27 121r27
+148T14 TareaConsumoCiudad 149l8 149e26 152b14 176l8 176t26 367r20
+153i7 consum{11I12} 168m9 170r32 171r57
+154o7 periodo{duration} 162r27 173r29
+155i7 sigIteracion{2|38I9} 162m7 163r19 173m9 174r21
+184T15 TareaMonitorizaConsumoProduccion 184d49 184d79 184d109 185l9 185e41
+. 187b15 297l8 297t40 369r21
+189o5 periodo{duration} 293r30
+190i5 sigIteration{2|38I9} 200m7 201r19 293m10 294r22
+191i5 prodPlanta0{integer} 205m32 205r32 210r21 241r21 244r24 254r21 254r50
+. 256r36 265r21 265r50 267r36 275r21 278r24
+192i5 prodPlanta1{integer} 206m32 206r32 210r33 241r34 241r50 244r36 244r64
+. 254r34 256r24 256r52 265r34 267r24 267r52 275r34 275r50 278r36 278r64
+193i5 prodPlanta2{integer} 207m32 207r32 210r45 241r63 244r52 254r63 256r64
+. 265r63 267r64 275r63 278r52
+194i5 prodTotal{integer} 210m10 214r37 216r48 218r77 223r47 226r47 229r47
+195i5 consumoCiudad{integer} 208m27 208r27 214r47 216r58 222r57 225r53 228r46
+196i7 relacionConsumoProduccion{integer} 214m10 233r13 238r16 238r49 252r16
+. 252r49 262r16 262r48 273r16 273r50
+197f7 porcentajeConsumoProduccion{float} 218m10 221r13 224r15
+198f7 floatRelacionConsumoProduccion{float} 216m10 218r40
+303T14 TareaPlantas 303d28 303d46 305l8 305e20 307b14 356l8 356t20 360r16
+. 362r16 364r16
+303i28 idPlanta{integer} 310r26 311r28 319r23 320r42
+310t7 tarSen{39T14} 332r7
+311t7 tarAct{82T14} 337r13 342r13 347r13
+312i7 producc{integer} 332m36 332r36 335r12 340r12 345r11 345r26
+314o7 retardoInicio{duration} 324r15
+315i7 tiempo{2|38I9} 324m7 352m10 353r22
+316o7 retardoBucle{duration} 352r18
+359w6 planta0{22|3W19} 360m31 360r31 369m54 369r54
+360t6 tarPlant0{303T14}
+361w6 planta1{22|3W19} 362m31 362r31 369m69 369r69
+362t6 tarPlant1{303T14}
+363w6 planta2{22|3W19} 364m31 364r31 369m84 369r84
+364t6 tarPlant2{303T14}
+367t7 consumCiudad{148T14}
+369t7 tarMonConProd{184T15}
+X 22 plantamonitor.ads
+1K10*PlantaMonitor 21|1w6 1r25 22|23e18
+3W19*PlantaEnergia 21|39r59 82r62 184r65 184r95 184r125 303r61 359r23 361r23
+. 363r23 22|22e21
+8U17 aumentarProd 21|113s26 266s28 268s28 270s28 276s28 277s28 279s28 280s28
+. 282s28 283s28 288s22 289s22 290s22
+9U17 disminuirProd 21|123s26 235s25 236s25 237s25 242s28 243s28 245s28 246s28
+. 248s28 249s28 255s28 257s28 259s28
+10U17 mantenerProd 21|130s32
+11U17 asociaID 21|319s14
+12U17 getProduccion 21|65s17 205s18 206s18 207s18
+13U17 getID 21|53s16
+X 36 s-rannum.ads
+66V13*Random{17|57M9} 37|223i21
+67V13*Random{17|60M9} 37|223i21
+X 59 text_io.ads
+24K9*Text_IO=24:29 21|2w6 2r19 100r7 135r13 171r10 222r13 223r13 225r13 226r13
+. 228r13 229r13 320r7 372r4
+
